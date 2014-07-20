@@ -53,7 +53,8 @@ p {
   line-height: 29px;
 }
 .icon-description {
-  margin-top:43px;
+  margin-top:30px;
+  margin-bottom:10px;
 }
 .icon-name {
   margin-top:20px;
@@ -64,7 +65,7 @@ div {
 }
 
 .icon-title {
-  font-family:MuseoSans100;
+  font-family:MuseoSans500;
   font-size:31px;
   color:#FFF;
 }
@@ -141,6 +142,17 @@ div {
   text-align:center;
   width:341px;
   height:68px;
+}
+
+@media only screen and (max-width:420px){
+  .btn-download {
+    width:320px;
+    font-size:28px;
+  }
+  .section-subtitle {
+    padding-left:12px;
+    padding-right:12px;
+  }
 }
 
 .clear { clear: both; }
